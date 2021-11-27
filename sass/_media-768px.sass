@@ -1,0 +1,58 @@
+@media (max-width: 768px)
+    .container
+        width: 534px
+    .menu
+        &-wrapper
+            &-right
+                display: none
+    .header
+        &-menu
+            &-burger
+                display: block
+                border: none
+                border-radius: 50%
+                background-color: $gold-color
+                width: 54px
+                height: 54px
+                display: flex
+                flex-direction: column
+                align-items: center
+                padding: 20px
+                justify-content: space-between
+                &-line
+                    height: 2px
+                    width: 20px
+                    background-color: #0D1C2E
+    .hero
+        &-wrapper
+            flex-direction: column
+            &-left
+                width: 100%
+                &-list
+                    font-size: 24px
+                    &-item
+                        margin-bottom: 6px
+                &-line
+                    display: none
+                &-button
+                    margin-left: 0
+                    margin-bottom: 30px
+            &-person
+                width: 50%
+                &-line
+                    display: none
+    .expertise
+        &-wrapper
+            &-title
+                font-size: 21px
+                &-bottom
+                    flex-direction: column
+                    &-gold
+                        margin-bottom: 20px
+            &-bottom
+                &-left
+                    &-item
+                        &:nth-child(2)
+                            margin-left: 50%
+            &-form
+                width: 97%
